@@ -11,7 +11,7 @@
   "navigation": {
     "dropdowns": [
       {
-        "dropdown": "Documentation",
+        "dropdown": "Employability Skills Class IX",
         "icon": "book-open",
         "pages": [
           "quickstart",
@@ -20,17 +20,13 @@
         ]
       },
       {
-        "dropdown": "API reference",
+        "dropdown": "IT Class IX",
         "icon": "square-terminal",
         "pages": [
           "api-reference/get",
           "api-reference/post",
           "api-reference/delete"
         ]
-      },
-      {
-        "dropdown": "Blog",
-        "href": "https://external-link.com/blog"
       }
     ]
   },
