@@ -14,6 +14,9 @@
         "dropdown": "Employability Skills IX",
         "icon": "book-open",
         "pages": [
+          "ICT-Skills/parts-of-computer",
+          "ICT-Skills/basic-computer-operations",
+          "ICT-Skills/basic-file-operations",
           "ICT-Skills/basics-of-internet",
           "ICT-Skills/internet-browsing",
           "ICT-Skills/email"
