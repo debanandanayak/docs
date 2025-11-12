@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Notes",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#155dfc",
+    "light": "#7d7cf2",
+    "dark": "#0046FF"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -13,13 +13,19 @@
       {
         "dropdown": "Employability Skills IX",
         "icon": "book-open",
-        "pages": [
-          "ICT-Skills/parts-of-computer",
-          "ICT-Skills/basic-computer-operations",
-          "ICT-Skills/basic-file-operations",
-          "ICT-Skills/basics-of-internet",
-          "ICT-Skills/internet-browsing",
-          "ICT-Skills/email"
+        "groups": [
+          {
+            "group": "ICT Skills",
+            "expanded": true,
+            "pages": [
+              "ICT-Skills/parts-of-computer",
+              "ICT-Skills/basic-computer-operations",
+              "ICT-Skills/basic-file-operations",
+              "ICT-Skills/basics-of-internet",
+              "ICT-Skills/internet-browsing",
+              "ICT-Skills/email"
+            ]
+          }
         ]
       },
       {
@@ -37,14 +43,9 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:nayak17.deba@gmail.com"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "contextual": {
     "options": [
