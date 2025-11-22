@@ -40,27 +40,18 @@ export const Counter = () => {
   };
 
   return (
-    <div className="flex items-center justify-center">
-      <div className="flex items-center rounded-xl overflow-hidden border border-zinc-950/20 dark:border-white/20">
-        <button
-          onClick={decrement}
-          className="flex items-center justify-center h-8 w-8 text-zinc-950/80 dark:text-white/80 border-r border-zinc-950/20 dark:border-white/20"
-          aria-label="Decrease"
-        >
-          -
-        </button>
-
-        <div className="flex text-sm items-center justify-center h-8 px-6 text-zinc-950/80 dark:text-white/80 font-medium min-w-[4rem] text-center">
-          {count}
-        </div>
-
-        <button
-          onClick={increment}
-          className="flex items-center justify-center h-8 w-8 text-zinc-950/80 dark:text-white/80 border-l border-zinc-950/20 dark:border-white/20"
-          aria-label="Increase"
-        >
-          +
-        </button>
+    <div>
+      <p className="text-md">{question.question}</p>
+      <div className="flex flex-col gap-2">
+        {question.options.map((option) => (
+          <button
+            key={option.id}
+            className={`btn ${selectedAnswer === option.id ? "btn-primary" : ""} text-start`}
+            onClick={() => handleAnswerSelect(option.id)}
+          >
+            {option.text}
+          </button>
+        ))}
       </div>
     </div>
   );

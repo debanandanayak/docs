@@ -33,9 +33,9 @@
         "icon": "square-terminal",
         "groups": [
           {
-            "group": "ICT Skills",
+            "group": "Spreadsheet",
             "expanded": true,
-            "pages": ["ICT-Skills/spreadsheet-questions"]
+            "pages": ["ICT-Skills/spreadsheet-mcq"]
           }
         ]
       }
