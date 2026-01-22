@@ -38,6 +38,17 @@
             "pages": ["ICT-Skills/spreadsheet-mcq"]
           }
         ]
+      },
+      {
+        "dropdown": "IT Class XI",
+        "icon": "square-terminal",
+        "groups": [
+          {
+            "group": "Java programming",
+            "expanded": true,
+            "pages": ["IT-Class-XI/Java/fundamentals"]
+          }
+        ]
       }
     ]
   },

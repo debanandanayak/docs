@@ -1,0 +1,156 @@
+---
+title: "Java basics (Object Oriented Programming - Java)"
+description: ""
+---
+
+## Object oriented programming
+
+1. Java is an Object Oriented Programming language.
+2. In OOP language program is collection of objects that interact with other object to solve a problem.
+3. It follows bottom up approach in designing a program.
+4. Its primary focus is on safety and security of data in program rather operation of program.
+5. It supports concept of Inheritance and Polymorphism.
+
+## Concpet of OOP
+
+1. Class
+2. Data
+3. Data member
+4. Method
+
+## What is Java Class
+
+1. Class is physical or logical entity that has certain attributes (data), behavior (method).
+2. It is like a template which defines how information will be managed.
+3. It encapsulates data and methods together in a single unit.
+4. To use attributes of a class its object must be declared.
+
+## What is java Object
+
+1. Object is instance of a class in java that is capable of holding actual data in memory locations.
+2. Both Class and Objects are related to each other as data type and variables.
+3. To use attributes and invoke method of class must be associated with its corresponding object.
+4. From a class multiple objects can be declared and all objects can have the same type of data members.
+
+## Designing a class
+
+1. A class contain Data and Method.
+2. Methods are set of sequential steps written together to perform a specific task on the data.
+
+### Syntax
+
+```java
+  class <ClassName> {
+    DataType variableName;
+    DataType variableName;
+    ...
+
+    modifier return_type method_name(list_of_parameters_separated_by_comma){
+        Statements;
+        ...
+        return statement; // as per the return type //optional
+
+    }
+
+    modifier return_type method_name(list_of_parameters_separated_by_comma){
+        Statements;
+        ...
+        return statement; // as per the return type //optional
+
+    }
+
+  }
+```
+
+## Creating class object
+
+```java
+  ClassName objectName = new ClassName();
+
+```
+
+## Example
+
+```java
+  class Square{
+    int side;
+    public Square(int x){
+        this.side = x;
+    }
+
+    public int area(){
+        return side*side;
+    }
+
+    public int perimeter(){
+        return 4*side;
+    }
+  }
+
+```
+
+## Access modifier
+
+1. Access Modifiers in java are keywords that specify the accessibility scope of data members of class.
+2. Java offers following Access Modifiers:
+   - private
+   - public
+   - protected
+
+### private access modifier
+
+1. Members defied as private of a class cannot be accessed outside of the class.
+2. Data member should be kept as private to avoid vulnerable to security issues.
+
+### public access modifier
+
+1. Members defined as public of a class cab be accessed outside of the class.
+2. Member methods are generally kept as public to make them available to access.
+
+### protected access modifier
+
+1. Members defined as protected can be accessed within class and its derived class.
+2. Data members can be kept as protected.
+
+## Variables & Data Types
+
+### variables
+
+1. Variable is a placeholder for data that can change its value during program execution.
+2. Technically, a variable is the name for a storage location in the computer’s internal memory and the value of the variable is the contents at that location.
+
+### Data type
+
+1. Data type determines the type of data to be stored in a variable.
+2. Data type tells the compiler, how much memory to reserve when storing a variable of that type.
+
+|Data type|Type of values |Size     |
+|byte     |integer        |8-bit    |
+|short    |integer        |16-bit   |
+|int      |integer        |32-bit   |
+|long     |integer        |64-bit   |
+|float    |floating-point |32-bit   |
+|double   |floating-point |64-bit   |
+|char     |character      |16-bit   |
+|boolean  |True or False  |1-bit    |
+
+
+## Declaring Variable
+
+```java
+// Syntax
+DataType variable_name;
+// Eg.
+// 
+int mark;
+float area;
+double perimiter;
+double pi=3.141;
+```
+
+## Rules for naming variable
+
+1. Variable names can begin with either an alphabetic character, an underscore (_), or a dollar sign ($).
+2. Variable names must be one word. Spaces are not allowed in variable names. Underscores are allowed.
+3. There are some reserved words in Java that cannot be used as variable names, for example – int
+4. Java is a case-sensitive language. Variable names written in capital letters differ from variable names with the same spelling but written in small letters.
